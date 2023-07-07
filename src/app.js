@@ -7,7 +7,7 @@ import { router } from "./routes/index.js";
 
 
 app.use(cors());
-// app.use(router);
+app.use(router);
 
 app.listen(PORT, () => {
   console.log(`server running on port ${PORT}`);
