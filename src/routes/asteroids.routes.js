@@ -1,7 +1,7 @@
 import { Router } from "express";
 const router = Router();
 
-router.get("/items", (req, res) => {
+router.get("/", (req, res) => {
   res.send({ data: "aqui van los modelos" });
 });
 
